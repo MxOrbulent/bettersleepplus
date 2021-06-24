@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.alphasucks.bettersleepplus.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BetterSleepPlusMixin",
+    "SleepManagerMixin",
+    "SleepManagerAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
